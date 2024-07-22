@@ -1624,7 +1624,11 @@ input#submit:hover {
   }
   80% {
     transform: translate(17px, 46px) rotate(360deg);
-  }
+    -webkit-transform: translate(17px, 46px) rotate(360deg);
+    -moz-transform: translate(17px, 46px) rotate(360deg);
+    -ms-transform: translate(17px, 46px) rotate(360deg);
+    -o-transform: translate(17px, 46px) rotate(360deg);
+}
   100% {
     transform: translate(0, 0) rotate(0);
   }
@@ -2319,6 +2323,10 @@ header #navbar {
   border-radius: 0px;
   -webkit-box-shadow: none;
   box-shadow: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
 }
 .header_menu
   .navbar.navbar-default
