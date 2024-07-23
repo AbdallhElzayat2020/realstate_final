@@ -1628,7 +1628,7 @@ input#submit:hover {
     -moz-transform: translate(17px, 46px) rotate(360deg);
     -ms-transform: translate(17px, 46px) rotate(360deg);
     -o-transform: translate(17px, 46px) rotate(360deg);
-}
+  }
   100% {
     transform: translate(0, 0) rotate(0);
   }
@@ -3032,14 +3032,14 @@ nav.navbar.navbar-default.navbar-sticky-in .logo-black {
   .headerstye-1 .slicknav_btn.slicknav_collapsed:before {
     color: #fff !important;
   }
-  }
+}
 
-  .dropdown-toggle::after,
-  .search-wrapper,
-  .header_menu .navbar.navbar-default a.cart-icon,
-  .register-login {
-    display: none !important;
-  }
+.dropdown-toggle::after,
+.search-wrapper,
+.header_menu .navbar.navbar-default a.cart-icon,
+.register-login {
+  display: none !important;
+}
 
 /* ========================================= */
 /*          Banner  CSS        */
@@ -5970,6 +5970,7 @@ section.comingsoon .comingsoon-content .counter-box span {
 /* ========================================= */
 /*          Footer CSS        */
 /* ======================================== */
+/* 
 footer {
   width: 100%;
   overflow: hidden;
@@ -6191,10 +6192,10 @@ footer.footermain {
   width: 100%;
   overflow: hidden;
   position: relative;
-}
+}s
 footer.footermain::before {
   content: "";
-  /* background: #181d20 url(../images/testimonial.png); */
+  ---background: #181d20 url(../images/testimonial.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -6286,6 +6287,124 @@ footer.footermain .footer-upper {
 @media (max-width: 359px) {
   footer .footer-payment .footer-pay .footer-payment-nav select {
     margin-bottom: 15px;
+  }
+}
+ */
+
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #007bff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .social_icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    li {
+      list-style: none;
+      a {
+        font-size: 2em;
+        color: white;
+        margin: 0 10px;
+        display: inline-block;
+        transition: 0.5s;
+        &:hover {
+          transform: translateY(-10px);
+        }
+      }
+    }
+  }
+  .menu li a {
+    font-size: 1.2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    opacity: 0.75;
+    &:hover {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  p {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  }
+  .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100px;
+    background: url(../images/wave.png);
+    background-size: 1000px 100px;
+    &#wave1 {
+      z-index: 1000;
+      opacity: 1;
+      bottom: 0;
+      animation: animateWave 4s linear infinite;
+    }
+    &#wave2 {
+      z-index: 999;
+      opacity: 0.5;
+      bottom: 10px;
+      animation: animateWave_02 4s linear infinite;
+    }
+    &#wave3 {
+      z-index: 1000;
+      opacity: 0.2;
+      bottom: 15px;
+      animation: animateWave_03 4s linear infinite;
+    }
+    &#wave4 {
+      z-index: 999;
+      opacity: 0.7;
+      bottom: 20px;
+      animation: animateWave_04 4s linear infinite;
+    }
+  }
+}
+@keyframes animateWave {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-position-x: 0;
+  }
+}
+@keyframes animateWave_02 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+@keyframes animateWave_03 {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-position-x: 0;
+  }
+}
+@keyframes animateWave_04 {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 1000px;
   }
 }
 /* ========================================= */
@@ -7441,22 +7560,22 @@ ul.sidebar-tags li a:hover {
 }
 
 .phone-icon {
-    position: fixed;
-    bottom: 90px;
-    left: 20px;
-    background-color: #25d366;
-    color: white;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    text-decoration: none;
+  position: fixed;
+  bottom: 90px;
+  left: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  text-decoration: none;
 }
 
 .phone-icon:hover {
-    background-color: #128c7e;
+  background-color: #128c7e;
 }
