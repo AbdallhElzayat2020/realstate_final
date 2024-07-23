@@ -6294,13 +6294,14 @@ footer.footermain .footer-upper {
 footer {
   position: relative;
   width: 100%;
-  background-color: #007bff;
+  background-color: #10887c;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 200px;
   .social_icon,
   .menu {
     position: relative;
