@@ -1304,6 +1304,12 @@ input#submit:hover {
   letter-spacing: 0.01em;
   color: #74787d;
 }
+.accrodion-grp .accrodion .accrodion-content .inner a,
+.accrodion-grp .accrodion .accrodion-content .inner .test {
+  padding: 10px 20px !important;
+  font-size: 20px;
+  width: 180px;
+}
 .accrodion-grp .accrodion.active .accrodion-title {
   background: #10887c;
   border-color: #10887c;
@@ -1319,6 +1325,17 @@ input#submit:hover {
 @media (max-width: 567px) {
   .accrodion-grp .accrodion .accrodion-title h5 {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .accrodion-grp .accrodion .accrodion-content .inner .row {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  .accrodion-grp .accrodion .accrodion-content .inner .row .col-lg-3 {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
   }
 }
 /* ========================================= */
@@ -2126,7 +2143,6 @@ header #navbar {
 .main_header_area.headerstye-1 {
   position: absolute;
   width: 100%;
-  border-bottom: 1px solid #ffffff37;
 }
 .main_header_area.headerstye-1
   .header_menu
