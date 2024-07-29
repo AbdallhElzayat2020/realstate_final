@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21d46a6e-16a6-4e70-8785-f6b221a84ca0" name="Changes" comment="Footer">
+    <list default="true" id="21d46a6e-16a6-4e70-8785-f6b221a84ca0" name="Changes" comment="some edits">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grid-leftfilter.html" beforeDir="false" afterPath="$PROJECT_DIR$/grid-leftfilter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,23 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/my work/mostqel_work/real-estate/realshield/realstate_final&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets.disable.when&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/my work/mostqel_work/real-estate/realshield/realstate_final",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.disable.when",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Real-Estate/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -116,7 +114,8 @@
       <workItem from="1722087318962" duration="658000" />
       <workItem from="1722099836423" duration="6057000" />
       <workItem from="1722129589228" duration="9320000" />
-      <workItem from="1722159528376" duration="8937000" />
+      <workItem from="1722159528376" duration="10146000" />
+      <workItem from="1722260808776" duration="10213000" />
     </task>
     <task id="LOCAL-00001" summary="some style for fontsize">
       <option name="closed" value="true" />
@@ -390,7 +389,39 @@
       <option name="project" value="LOCAL" />
       <updated>1722161478532</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Edits">
+      <option name="closed" value="true" />
+      <created>1722183124842</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1722183124842</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Edits img">
+      <option name="closed" value="true" />
+      <created>1722183166232</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1722183166232</updated>
+    </task>
+    <task id="LOCAL-00037" summary="some edits">
+      <option name="closed" value="true" />
+      <created>1722271417187</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1722271417187</updated>
+    </task>
+    <task id="LOCAL-00038" summary="some edits">
+      <option name="closed" value="true" />
+      <created>1722271569578</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1722271569578</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,6 +448,9 @@
     <MESSAGE value="Footer and Contact" />
     <MESSAGE value="some Edits" />
     <MESSAGE value="Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer" />
+    <MESSAGE value="Edits" />
+    <MESSAGE value="Edits img" />
+    <MESSAGE value="some edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="some edits" />
   </component>
 </project>
