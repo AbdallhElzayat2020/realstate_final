@@ -2295,8 +2295,6 @@ header #navbar {
 }
 
 
-
-
 .btn-btn {
     background: #5A4B93;
     color: #fff;
@@ -2307,10 +2305,12 @@ header #navbar {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
 }
+
 .btn-btn:hover {
     background-color: #6d5dad;
     color: #fff;
 }
+
 .main_header_area .header_menu.fixed-top .register-login a {
     color: #777 !important;
 }
@@ -8466,4 +8466,10 @@ ul.sidebar-tags li a:hover {
 
 .phone-icon:hover {
     background-color: #128c7e;
+}
+
+@media (min-width: 800px) {
+    .phone-icon {
+        display: none;
+    }
 }
