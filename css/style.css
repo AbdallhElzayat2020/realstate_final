@@ -8429,7 +8429,7 @@ ul.sidebar-tags li a:hover {
 .whatsapp-icon {
     position: fixed;
     bottom: 20px;
-    left: 20px;
+    left: 30px;
     background-color: #25d366;
     color: white;
     border-radius: 50%;
@@ -8450,7 +8450,7 @@ ul.sidebar-tags li a:hover {
 .phone-icon {
     position: fixed;
     bottom: 90px;
-    left: 20px;
+    left: 30px;
     background-color: #25d366;
     color: white;
     border-radius: 50%;
