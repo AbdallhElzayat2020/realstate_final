@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="zxx">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -18,411 +17,558 @@
     <!--Flaticons CSS-->
     <link href="fonts/flaticon.css" rel="stylesheet" type="text/css" />
     <!--Font Awesome-->
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+=======
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+>>>>>>> 86e1f04adb57b6ae05e63404897377918c2a2f5f
 
     <link rel="stylesheet" href="fonts/line-icons.css" type="text/css" />
     <style>
-        .scroll {
-            position: fixed;
-            z-index: 1000;
-            right: 0;
-            top: 0;
-            width: 0;
-            height: 9px;
-            background-color: #10887c;
-        }
+      .scroll {
+        position: fixed;
+        z-index: 1000;
+        right: 0;
+        top: 0;
+        width: 0;
+        height: 9px;
+        background-color: #10887c;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Preloader -->
     <div id="preloader">
-        <div id="status"></div>
+      <div id="status"></div>
     </div>
     <!-- Preloader Ends -->
     <div class="scroll"></div>
 
     <!-- header starts -->
     <header class="main_header_area">
-        <!-- Navigation Bar -->
-        <div class="header_menu" id="header_menu">
-            <nav class="navbar navbar-default">
-                <div class="container">
-                    <div class="navbar-flex d-flex align-items-center justify-content-between w-100 pb-3 pt-3"
-                        style="justify-content: flex-start !important; gap: 22vw">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="images/logo.webp" alt="image" />
-                                <img src="images/logo.png" alt="image" />
-                            </a>
-                        </div>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="navbar-collapse1 d-flex align-items-center" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav" id="responsive-menu">
-                                <li class="dropdown submenu">
-                                    <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                        aria-haspopup="true" aria-expanded="false">الرئيسية</a>
-                                </li>
+      <!-- Navigation Bar -->
+      <div class="header_menu" id="header_menu">
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <div
+              class="navbar-flex d-flex align-items-center justify-content-between w-100 pb-3 pt-3"
+              style="justify-content: flex-start !important; gap: 22vw"
+            >
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">
+                  <img src="images/logo.webp" alt="image" />
+                  <img src="images/logo.png" alt="image" />
+                </a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div
+                class="navbar-collapse1 d-flex align-items-center"
+                id="bs-example-navbar-collapse-1"
+              >
+                <ul class="nav navbar-nav" id="responsive-menu">
+                  <li class="dropdown submenu">
+                    <a
+                      href="index.html"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >الرئيسية</a
+                    >
+                  </li>
 
-                                <li><a href="about.html">من نحن</a></li>
-                                <li class="submenu dropdown">
-                                    <a href="grid-leftfilter.html" class="dropdown-toggle" data-toggle="dropdown"
-                                        role="button" aria-haspopup="true" aria-expanded="false">مشاريعنا
-                                    </a>
-                                </li>
-                                <li class="submenu dropdown">
-                                    <a href="services.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                        aria-haspopup="true" aria-expanded="false">خدماتنا</a>
-                                </li>
-                                <li class="submenu dropdown active">
-                                    <a href="post-grid-1.html" class="dropdown-toggle" data-toggle="dropdown"
-                                        role="button" aria-haspopup="true" aria-expanded="false">المدونة
-                                    </a>
-                                </li>
-                                <li><a href="contact.html">تواصل معنا</a></li>
-                                <li class="search-main">
-                                    <a href="#search1" class="mt_search"><i class="fa fa-search"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.navbar-collapse -->
-                        <div class="register-login d-flex align-items-center">
-                            <div class="header_sidemenu ms-3">
-                                <div class="mhead">
-                                    <span class="menu-ham">
-                                        <a href="#" class="cart-icon d-flex align-items-center ms-1"><i
-                                                class="fa fa-th-large fs-5 black bg-grey p-2"></i></a>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="slicknav-mobile"></div>
-                    </div>
+                  <li><a href="about.html">من نحن</a></li>
+                  <li class="submenu dropdown">
+                    <a
+                      href="grid-leftfilter.html"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >مشاريعنا
+                    </a>
+                  </li>
+                  <li class="submenu dropdown">
+                    <a
+                      href="services.html"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >خدماتنا</a
+                    >
+                  </li>
+                  <li class="submenu dropdown active">
+                    <a
+                      href="post-grid-1.html"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                      >المدونة
+                    </a>
+                  </li>
+                  <li><a href="contact.html">تواصل معنا</a></li>
+                  <li class="search-main">
+                    <a href="#search1" class="mt_search"
+                      ><i class="fa fa-search"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+              <div class="register-login d-flex align-items-center">
+                <div class="header_sidemenu ms-3">
+                  <div class="mhead">
+                    <span class="menu-ham">
+                      <a
+                        href="#"
+                        class="cart-icon d-flex align-items-center ms-1"
+                        ><i class="fa fa-th-large fs-5 black bg-grey p-2"></i
+                      ></a>
+                    </span>
+                  </div>
                 </div>
-                <!-- /.container-fluid -->
-            </nav>
-        </div>
-        <!-- Navigation Bar Ends -->
+              </div>
+              <div id="slicknav-mobile"></div>
+            </div>
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+      </div>
+      <!-- Navigation Bar Ends -->
     </header>
     <!-- header ends -->
 
     <!-- Breadcrumb -->
-    <div class="page-cover pt-10 pb-10 bg-lgrey border-b d-flex align-items-center" style="
+    <div
+      class="page-cover pt-10 pb-10 bg-lgrey border-b d-flex align-items-center"
+      style="
         background-image: url(images/slide1.jpeg) !important;
         background-position: 8% !important;
         background-size: cover !important;
         height: 75vh;
-      ">
-        <div class="container">
-            <div class="cover-content text-center text-md-start">
-                <h1 class="lh-sm text-center">
-                    Apple honors eight developers with annual Apple Design Awards.
-                </h1>
-            </div>
+      "
+    >
+      <div class="container">
+        <div class="cover-content text-center text-md-start">
+          <h1 class="lh-sm text-center">
+            Apple honors eight developers with annual Apple Design Awards.
+          </h1>
         </div>
+      </div>
     </div>
     <!-- Breadcrumb Ends -->
 
     <!-- blog starts -->
     <section class="blog blog-left pt-10">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-md-12 col-sm-12">
-                    <div class="blog-single">
-                        <div class="blog-single-in d-md-flex align-items-center mb-4 text-center text-md-start">
-                            <div class="blog-single-in-cont text-center">
-                                <div class="blog-content">
-                                    <h2 class="blog-title mb-0">
-                                        <a href="#" class="">Winners are recognized for outstanding app design</a>
-                                    </h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="blog-wrapper">
-                            <div class="blog-content">
-                                <div class="blog-imagelist mb-3">
-                                    <img src="images/slide1.jpeg" alt="image" />
-                                </div>
-                                <p class="mb-3">
-                                    Lorem ipsum dolor sit amet, consectetur adipis Vi ales elit
-                                    vitae lo bortis faucibus. Lorem ipsum dolor sit amet, conse
-                                    dolor sit amet, consectetu ctetur adipis Viales. Lorem ipsum
-                                    dolor sit amet, cons sit amet, consectetur adi ectetur
-                                    adipis Vi.<br /><br />
-                                    It is a long established fact that a reader will be
-                                    distracted by the readable content of a page when looking at
-                                    its layout. The point of using Lorem Ipsum is that it has a
-                                    more-or-less normal distribution of letters, as opposed to
-                                    using 'Content here, content here', making it look like
-                                    readable English. Many desktop publishing packages and web
-                                    page editors now use Lorem Ipsum as their default model
-                                    text, and a search for 'lorem ipsum' will uncover many web
-                                    sites still in their infancy.
-                                </p>
-                            </div>
-
-                            <!-- blog blockquote -->
-                            <p class="">
-                                as opposed to using 'Content here, content here', making it
-                                look like readable English. Many desktop publishing packages
-                                and web page editors now use Lorem Ipsum as their default
-                                model text, and a search for 'lorem ipsum' will uncover many
-                                web sites still in their infancy. as opposed to using 'Content
-                                here, content here', making it look like readable English.
-                                Many desktop publishing packages and web page editors now use
-                                Lorem Ipsum as their default model text, and a search for
-                                'lorem ipsum' will uncover many web sites still in their
-                                infancy. as opposed to using 'Content here, content here',
-                                making it look like readable English. Many desktop publishing
-                                packages and web page editors now use Lorem Ipsum as their
-                                default model text, and a search for 'lorem ipsum' will
-                                uncover many web sites still in their infancy. as opposed to
-                                using 'Content here, content here', making it look like
-                                readable English. Many desktop publishing packages and web
-                                page editors now use Lorem Ipsum as their default model text,
-                                and a search for 'lorem ipsum' will uncover many web sites
-                                still in their infancy.
-                            </p>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12">
+            <div class="sidebar-sticky">
+              <div class="list-sidebar">
+                <div class="sidebar-item mb-4">
+                  <h4 class="">جدول المحتويات</h4>
+                  <ul class="sidebar-category">
+                    <li><a href="#">All</a></li>
+                    <li class="active"><a href="#">Featured</a></li>
+                    <li><a href="#">Sliders</a></li>
+                    <li><a href="#">Manage Listings</a></li>
+                  </ul>
                 </div>
+                <div class="author-news mb-4 box-shadow p-5 text-center">
+                  <div class="author-news-content">
+                    <h3 class="title mb-1"><a href="#">كاتب المقال</a></h3>
 
-                <!-- sidebar starts -->
-                <div class="col-lg-4 col-md-12">
-                    <div class="sidebar-sticky">
-                        <div class="list-sidebar">
-                            <div class="author-news mb-4 box-shadow p-5 text-center">
-                                <div class="author-news-content">
-                                    <h3 class="title mb-1"><a href="#">كاتب المقال</a></h3>
-
-                                    <div class="author-thumb mb-1">
-                                        <img src="https://joeleclinics.com/storage/doctor_image/2251-Web_Site_Pic_-_F.jpg"
-                                            alt="author" />
-                                    </div>
-                                    <div class="author-content">
-                                        <h3 class="title mb-1"><a href="#">الاسم</a></h3>
-                                        <p class="mb-2">
-                                            Hello, We’re content writer who is fascinated by content
-                                            fashion, celebrity and lifestyle. We helps clients bring
-                                            the right content to the right people.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="sidebar-item mb-4">
-                                <h4 class="">جدول المحتويات</h4>
-                                <ul class="sidebar-category">
-                                    <li><a href="#">All</a></li>
-                                    <li class="active"><a href="#">Featured</a></li>
-                                    <li><a href="#">Sliders</a></li>
-                                    <li><a href="#">Manage Listings</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="author-thumb mb-1">
+                      <img
+                        src="https://joeleclinics.com/storage/doctor_image/2251-Web_Site_Pic_-_F.jpg"
+                        alt="author"
+                      />
                     </div>
+                    <div class="author-content">
+                      <h3 class="title mb-1"><a href="#">الاسم</a></h3>
+                      <p class="mb-2">
+                        Hello, We’re content writer who is fascinated by content
+                        fashion, celebrity and lifestyle. We helps clients bring
+                        the right content to the right people.
+                      </p>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-8 col-md-12 col-sm-12">
+            <div class="blog-single">
+              <div
+                class="blog-single-in d-md-flex align-items-center mb-4 text-center text-md-start"
+              >
+                <div class="blog-single-in-cont text-center">
+                  <div class="blog-content">
+                    <h2 class="blog-title mb-0">
+                      <a href="#" class=""
+                        >Winners are recognized for outstanding app design</a
+                      >
+                    </h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="blog-wrapper">
+                <div class="blog-content">
+                  <div class="blog-imagelist mb-3">
+                    <img src="images/slide1.jpeg" alt="image" />
+                  </div>
+                  <h3>المقدمه</h3>
+                  <p
+                    class="mb-3 shadow-sm"
+                    style="
+                      border-right: 2px solid #10887c;
+                      padding: 10px;
+                      border-radius: 8px;
+                    "
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipis Vi ales elit
+                    vitae lo bortis faucibus. Lorem ipsum dolor sit amet, conse
+                    dolor sit amet, consectetu ctetur adipis Viales. Lorem ipsum
+                    dolor sit amet, cons sit amet, consectetur adi ectetur
+                    adipis Vi.
+                  </p>
+                </div>
+                <h3>عنوان محتوى المقاله</h3>
+                <!-- blog blockquote -->
+                <p
+                  class="mb-3 shadow-sm"
+                  style="
+                    border-right: 2px solid #10887c;
+                    padding: 10px;
+                    border-radius: 8px;
+                  "
+                >
+                  as opposed to using 'Content here, content here', making it
+                  look like readable English. Many desktop publishing packages
+                  and web page editors now use Lorem Ipsum as their default
+                  model text, and a search for 'lorem ipsum' will uncover many
+                  web sites still in their infancy. as opposed to using 'Content
+                  here, content here', making it look like readable English.
+                  Many desktop publishing packages and web page editors now use
+                  Lorem Ipsum as their default model text, and a search for
+                </p>
+                <h3>عنوان محتوى المقاله</h3>
+                <!-- blog blockquote -->
+                <p
+                  class="mb-3 shadow-sm"
+                  style="
+                    border-right: 2px solid #10887c;
+                    padding: 10px;
+                    border-radius: 8px;
+                  "
+                >
+                  as opposed to using 'Content here, content here', making it
+                  look like readable English. Many desktop publishing packages
+                  and web page editors now use Lorem Ipsum as their default
+                  model text, and a search for 'lorem ipsum' will uncover many
+                  web sites still in their infancy. as opposed to using 'Content
+                  here, content here', making it look like readable English.
+                  Many desktop publishing packages and web page editors now use
+                  Lorem Ipsum as their default model text, and a search for
+                </p>
+                <h3>عنوان محتوى المقاله</h3>
+                <!-- blog blockquote -->
+                <p
+                  class="mb-3 shadow-sm"
+                  style="
+                    border-right: 2px solid #10887c;
+                    padding: 10px;
+                    border-radius: 8px;
+                  "
+                >
+                  as opposed to using 'Content here, content here', making it
+                  look like readable English. Many desktop publishing packages
+                  and web page editors now use Lorem Ipsum as their default
+                  model text, and a search for 'lorem ipsum' will uncover many
+                  web sites still in their infancy. as opposed to using 'Content
+                  here, content here', making it look like readable English.
+                  Many desktop publishing packages and web page editors now use
+                  Lorem Ipsum as their default model text, and a search for
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- sidebar starts -->
         </div>
+      </div>
     </section>
     <!-- blog Ends -->
 
     <!-- top deal starts -->
     <section class="top-post pt-0">
-        <div class="container">
-            <div class="section-title mb-6 pb-1 w-75 mx-auto text-center">
-                <h2 class="m-0">Related <span>Posts</span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-            <div class="row team-slider swiper-wrapper" style="direction: ltr !important">
-                <div class="col-lg-4 swiper-slide">
-                    <div class="trend-item">
-                        <div class="trend-image">
-                            <img src="https://joeleclinics.com/storage/doctor_image/2251-Web_Site_Pic_-_F.jpg"
-                                alt="image" />
-                            <div class="trend-content p-4 bg-lgrey border-b">
-                                <h5 class="theme">Inspiration</h5>
-                                <h4>
-                                    <a href="#">Inspire Runner with Autism Graces the Latest Cover</a>
-                                </h4>
-                                <p class="mb-2">
-                                    A wonderful serenity has taken possession of my entire soul,
-                                    like these sweet mornings.
-                                </p>
-                                <div class="entry-meta d-flex align-items-center justify-content-between border-t pt-2">
-                                    <div class="entry-author d-flex align-items-center">
-                                        <img src="https://joeleclinics.com/storage/doctor_image/2251-Web_Site_Pic_-_F.jpg"
-                                            alt="" class="rounded-circle me-1" />
-                                        <span>John Bolden</span>
-                                    </div>
-                                    <div class="entry-metalist">
-                                        <small><a href="#" class="grey"><i class="fa fa-calendar"></i> 10 Apr
-                                                2021</a></small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 swiper-slide">
-                    <div class="trend-item">
-                        <div class="trend-image">
-                            <img src="https://joeleclinics.com/storage/doctor_image/2251-Web_Site_Pic_-_F.jpg"
-                                alt="image" />
-                            <div class="trend-content p-4 bg-lgrey border-b">
-                                <h5 class="theme">Inspiration</h5>
-                                <h4>
-                                    <a href="#">Inspire Runner with Autism Graces the Latest Cover</a>
-                                </h4>
-                                <p class="mb-2">
-                                    A wonderful serenity has taken possession of my entire soul,
-                                    like these sweet mornings.
-                                </p>
-                                <div class="entry-meta d-flex align-items-center justify-content-between border-t pt-2">
-                                    <div class="entry-author d-flex align-items-center">
-                                        <img src="images/reviewer/3.jpg" alt="" class="rounded-circle me-1" />
-                                        <span>John Bolden</span>
-                                    </div>
-                                    <div class="entry-metalist">
-                                        <small><a href="#" class="grey"><i class="fa fa-calendar"></i> 10 Apr
-                                                2021</a></small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 swiper-slide">
-                    <div class="trend-item">
-                        <div class="trend-image">
-                            <img src="https://joeleclinics.com/storage/doctor_image/2251-Web_Site_Pic_-_F.jpg"
-                                alt="image" />
-                            <div class="trend-content p-4 bg-lgrey border-b">
-                                <h5 class="theme">Inspiration</h5>
-                                <h4>
-                                    <a href="#">Inspire Runner with Autism Graces the Latest Cover</a>
-                                </h4>
-                                <p class="mb-2">
-                                    A wonderful serenity has taken possession of my entire soul,
-                                    like these sweet mornings.
-                                </p>
-                                <div class="entry-meta d-flex align-items-center justify-content-between border-t pt-2">
-                                    <div class="entry-author d-flex align-items-center">
-                                        <img src="images/reviewer/3.jpg" alt="" class="rounded-circle me-1" />
-                                        <span>John Bolden</span>
-                                    </div>
-                                    <div class="entry-metalist">
-                                        <small><a href="#" class="grey"><i class="fa fa-calendar"></i> 10 Apr
-                                                2021</a></small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 swiper-slide">
-                    <div class="trend-item">
-                        <div class="trend-image">
-                            <img src="https://joeleclinics.com/storage/doctor_image/2251-Web_Site_Pic_-_F.jpg"
-                                alt="image" />
-                            <div class="trend-content p-4 bg-lgrey border-b">
-                                <h5 class="theme">Inspiration</h5>
-                                <h4>
-                                    <a href="#">Inspire Runner with Autism Graces the Latest Cover</a>
-                                </h4>
-                                <p class="mb-2">
-                                    A wonderful serenity has taken possession of my entire soul,
-                                    like these sweet mornings.
-                                </p>
-                                <div class="entry-meta d-flex align-items-center justify-content-between border-t pt-2">
-                                    <div class="entry-author d-flex align-items-center">
-                                        <img src="images/reviewer/3.jpg" alt="" class="rounded-circle me-1" />
-                                        <span>John Bolden</span>
-                                    </div>
-                                    <div class="entry-metalist">
-                                        <small><a href="#" class="grey"><i class="fa fa-calendar"></i> 10 Apr
-                                                2021</a></small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="section-title mb-6 pb-1 w-75 mx-auto text-center">
+          <h2 class="m-0">Related <span>Posts</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+        <div
+          class="row team-slider swiper-wrapper"
+          style="direction: ltr !important"
+        >
+          <div class="col-lg-4 swiper-slide">
+            <div class="trend-item">
+              <div class="trend-image">
+                <img
+                  src="https://joeleclinics.com/storage/doctor_image/2251-Web_Site_Pic_-_F.jpg"
+                  alt="image"
+                />
+                <div class="trend-content p-4 bg-lgrey border-b">
+                  <h5 class="theme">Inspiration</h5>
+                  <h4>
+                    <a href="#"
+                      >Inspire Runner with Autism Graces the Latest Cover</a
+                    >
+                  </h4>
+                  <p class="mb-2">
+                    A wonderful serenity has taken possession of my entire soul,
+                    like these sweet mornings.
+                  </p>
+                  <div
+                    class="entry-meta d-flex align-items-center justify-content-between border-t pt-2"
+                  >
+                    <div class="entry-author d-flex align-items-center">
+                      <img
+                        src="https://joeleclinics.com/storage/doctor_image/2251-Web_Site_Pic_-_F.jpg"
+                        alt=""
+                        class="rounded-circle me-1"
+                      />
+                      <span>John Bolden</span>
+                    </div>
+                    <div class="entry-metalist">
+                      <small
+                        ><a href="#" class="grey"
+                          ><i class="fa fa-calendar"></i> 10 Apr 2021</a
+                        ></small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 swiper-slide">
+            <div class="trend-item">
+              <div class="trend-image">
+                <img
+                  src="https://joeleclinics.com/storage/doctor_image/2251-Web_Site_Pic_-_F.jpg"
+                  alt="image"
+                />
+                <div class="trend-content p-4 bg-lgrey border-b">
+                  <h5 class="theme">Inspiration</h5>
+                  <h4>
+                    <a href="#"
+                      >Inspire Runner with Autism Graces the Latest Cover</a
+                    >
+                  </h4>
+                  <p class="mb-2">
+                    A wonderful serenity has taken possession of my entire soul,
+                    like these sweet mornings.
+                  </p>
+                  <div
+                    class="entry-meta d-flex align-items-center justify-content-between border-t pt-2"
+                  >
+                    <div class="entry-author d-flex align-items-center">
+                      <img
+                        src="images/reviewer/3.jpg"
+                        alt=""
+                        class="rounded-circle me-1"
+                      />
+                      <span>John Bolden</span>
+                    </div>
+                    <div class="entry-metalist">
+                      <small
+                        ><a href="#" class="grey"
+                          ><i class="fa fa-calendar"></i> 10 Apr 2021</a
+                        ></small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 swiper-slide">
+            <div class="trend-item">
+              <div class="trend-image">
+                <img
+                  src="https://joeleclinics.com/storage/doctor_image/2251-Web_Site_Pic_-_F.jpg"
+                  alt="image"
+                />
+                <div class="trend-content p-4 bg-lgrey border-b">
+                  <h5 class="theme">Inspiration</h5>
+                  <h4>
+                    <a href="#"
+                      >Inspire Runner with Autism Graces the Latest Cover</a
+                    >
+                  </h4>
+                  <p class="mb-2">
+                    A wonderful serenity has taken possession of my entire soul,
+                    like these sweet mornings.
+                  </p>
+                  <div
+                    class="entry-meta d-flex align-items-center justify-content-between border-t pt-2"
+                  >
+                    <div class="entry-author d-flex align-items-center">
+                      <img
+                        src="images/reviewer/3.jpg"
+                        alt=""
+                        class="rounded-circle me-1"
+                      />
+                      <span>John Bolden</span>
+                    </div>
+                    <div class="entry-metalist">
+                      <small
+                        ><a href="#" class="grey"
+                          ><i class="fa fa-calendar"></i> 10 Apr 2021</a
+                        ></small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 swiper-slide">
+            <div class="trend-item">
+              <div class="trend-image">
+                <img
+                  src="https://joeleclinics.com/storage/doctor_image/2251-Web_Site_Pic_-_F.jpg"
+                  alt="image"
+                />
+                <div class="trend-content p-4 bg-lgrey border-b">
+                  <h5 class="theme">Inspiration</h5>
+                  <h4>
+                    <a href="#"
+                      >Inspire Runner with Autism Graces the Latest Cover</a
+                    >
+                  </h4>
+                  <p class="mb-2">
+                    A wonderful serenity has taken possession of my entire soul,
+                    like these sweet mornings.
+                  </p>
+                  <div
+                    class="entry-meta d-flex align-items-center justify-content-between border-t pt-2"
+                  >
+                    <div class="entry-author d-flex align-items-center">
+                      <img
+                        src="images/reviewer/3.jpg"
+                        alt=""
+                        class="rounded-circle me-1"
+                      />
+                      <span>John Bolden</span>
+                    </div>
+                    <div class="entry-metalist">
+                      <small
+                        ><a href="#" class="grey"
+                          ><i class="fa fa-calendar"></i> 10 Apr 2021</a
+                        ></small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- top deal ends -->
 
     <!-- footer starts -->
     <!--Footer-->
     <footer>
-        <div class="waves">
-            <div class="wave" id="wave1"></div>
-            <div class="wave" id="wave2"></div>
-            <div class="wave" id="wave3"></div>
-            <div class="wave" id="wave4"></div>
-        </div>
-        <ul class="social_icon">
-            <li>
-                <a href="https://web.facebook.com/profile.php?id=100087543796287&_rdc=1&_rdr">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-            </li>
-            <li>
-                <a href="https://twitter.com/roshemcompany">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-x-twitter fs-2"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-youtube"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-snapchat fs-2"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/roshemcompany/">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                </a>
-            </li>
-        </ul>
-        <ul class="menu">
-            <li><a href="index.html">المدونة</a></li>
-            <li><a href="about.html">من نحن</a></li>
-            <li><a href="services.html">خدماتنا</a></li>
-            <li><a href="contact.html">سياسية الخصوصية</a></li>
-        </ul>
-        <p>حقوق النشر والملكية ل روشم</p>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social_icon">
+        <li>
+          <a
+            href="https://web.facebook.com/profile.php?id=100087543796287&_rdc=1&_rdr"
+          >
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/roshemcompany">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-x-twitter fs-2"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-snapchat fs-2"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/roshemcompany/">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="index.html">المدونة</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="services.html">خدماتنا</a></li>
+        <li><a href="contact.html">سياسية الخصوصية</a></li>
+      </ul>
+      <p>حقوق النشر والملكية ل روشم</p>
     </footer>
     <!-- footer ends -->
     <!-- footer ends -->
 
     <!-- Back to top start -->
     <div id="back-to-top">
-        <a href="#"></a>
+      <a href="#"></a>
     </div>
     <!-- Back to top ends -->
 
     <!-- search popup -->
     <div id="search1">
-        <button type="button" class="close">×</button>
-        <form>
-            <input type="search" value="" placeholder="type keyword(s) here" />
-            <button type="submit" class="btn btn-primary">Search</button>
-        </form>
+      <button type="button" class="close">×</button>
+      <form>
+        <input type="search" value="" placeholder="type keyword(s) here" />
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
     </div>
 
     <!-- Scripts -->
@@ -432,18 +578,23 @@
     <script src="js/main.js"></script>
     <script src="js/custom-nav.js"></script>
 
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <script>
-        let ele = document.querySelector(".scroll");
-        let height =
-            document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      let ele = document.querySelector(".scroll");
+      let height =
+          document.documentElement.scrollHeight - document.documentElement.clientHeight;
 
-        window.addEventListener("scroll", () => {
-            let scroller = document.documentElement.scrollTop;
-            ele.style.width = `${(scroller / height) * 100}%`;
-        });
+      window.addEventListener("scroll", () => {
+          let scroller = document.documentElement.scrollTop;
+          ele.style.width = ${(scroller / height) * 100}%;
+      });
     </script>
-</body>
-
+  </body>
 </html>
