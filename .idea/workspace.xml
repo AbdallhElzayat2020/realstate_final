@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21d46a6e-16a6-4e70-8785-f6b221a84ca0" name="Changes" comment="Edits">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/services-detail.html" afterDir="false" />
-    </list>
+    <list default="true" id="21d46a6e-16a6-4e70-8785-f6b221a84ca0" name="Changes" comment="Edits" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/my work/mostqel_work/real-estate/realshield/realstate_final",
+    "last_opened_file_path": "C:/laragon/www/E-commerce",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,6 +115,7 @@
       <workItem from="1722260808776" duration="20257000" />
       <workItem from="1722305803562" duration="1293000" />
       <workItem from="1722403733591" duration="6913000" />
+      <workItem from="1722418237442" duration="128000" />
     </task>
     <task id="LOCAL-00001" summary="some style for fontsize">
       <option name="closed" value="true" />
