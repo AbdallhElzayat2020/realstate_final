@@ -7,6 +7,7 @@
 
     <title>Real Estate</title>
     <!-- Favicon -->
+ <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.webp" />
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -17,10 +18,30 @@
     <!--Flaticons CSS-->
     <link href="fonts/flaticon.css" rel="stylesheet" type="text/css" />
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="fonts/line-icons.css" type="text/css" />
+    <style>
+        .scroll {
+            position: fixed;
+            z-index: 1000;
+            right: 0;
+            top: 0;
+            width: 0;
+            height: 9px;
+            background-color: #10887c;
+        }
+    </style>
 </head>
 
 <body>
@@ -29,6 +50,7 @@
         <div id="status"></div>
     </div>
     <!-- Preloader Ends -->
+    <div class="scroll"></div>
 
     <!-- header starts -->
     <header class="main_header_area">
@@ -560,7 +582,16 @@
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-     
+    <script>
+        let ele = document.querySelector(".scroll");
+        let height =
+            document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+        window.addEventListener("scroll", () => {
+            let scroller = document.documentElement.scrollTop;
+            ele.style.width = `${(scroller / height) * 100}%`;
+        });
+    </script>
 </body>
 
 </html>
